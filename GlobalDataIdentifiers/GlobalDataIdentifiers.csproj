@@ -18,7 +18,7 @@
 		<Description>Library for working with Data and Application Identifiers defined by GS1 and ASC MH10 Standards.</Description>
 		<PackageProjectUrl>https://xylocode.com/Tools/GlobalDataIdentifiers/</PackageProjectUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<RepositoryUrl>https://github.com/Tools/GlobalDataIdentifiers</RepositoryUrl>
+		<RepositoryUrl>https://github.com/xylocode/Tools.GlobalDataIdentifiers</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
