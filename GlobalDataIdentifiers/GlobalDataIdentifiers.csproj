@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
+		<ImplicitUsings>disable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<AssemblyName>XyloCode.Tools.GlobalDataIdentifiers</AssemblyName>
+		<RootNamespace>XyloCode.Tools.GlobalDataIdentifiers</RootNamespace>
+		<PackageId>XyloCode.Tools.GlobalDataIdentifiers</PackageId>
+		<Title>GlobalDataIdentifiers</Title>
+		<Version>1.0.0</Version>
+		<Authors>xylocode</Authors>
+		<Copyright>Copyright (c) 2024 Sergey Korobeynikov</Copyright>
+		<PackageTags>GS1; ASC MH10; GS1-128; UCC-128; EAN-128; Code128;</PackageTags>
+		<PackageIcon>LOGO.png</PackageIcon>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Product>XyloCode.Tools.GlobalDataIdentifiers</Product>
+		<Description>Library for working with Data and Application Identifiers defined by GS1 and ASC MH10 Standards.</Description>
+		<PackageProjectUrl>https://xylocode.com/Tools/GlobalDataIdentifiers/</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/Tools/GlobalDataIdentifiers</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageReleaseNotes>First release</PackageReleaseNotes>
+		<IncludeSymbols>True</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="LICENSE.txt" Pack="true" PackagePath="" />
+		<None Include="README.md" Pack="true" PackagePath="" />
+		<None Include="LOGO.png" Pack="true" PackagePath="" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+	  <PackageReference Include="System.Text.Encoding.CodePages" Version="8.0.0" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+	  <Compile Update="Properties\Resources.Designer.cs">
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>Resources.resx</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+
+	<ItemGroup>
+	  <EmbeddedResource Update="Properties\Resources.resx">
+	    <Generator>ResXFileCodeGenerator</Generator>
+	    <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
+	</ItemGroup>
+
+</Project>
