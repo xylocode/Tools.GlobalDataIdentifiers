@@ -8,7 +8,7 @@
 		<RootNamespace>XyloCode.Tools.GlobalDataIdentifiers</RootNamespace>
 		<PackageId>XyloCode.Tools.GlobalDataIdentifiers</PackageId>
 		<Title>GlobalDataIdentifiers</Title>
-		<Version>1.0.0</Version>
+		<Version>1.0.1</Version>
 		<Authors>xylocode</Authors>
 		<Copyright>Copyright (c) 2024 Sergey Korobeynikov</Copyright>
 		<PackageTags>GS1; ASC MH10; GS1-128; UCC-128; EAN-128; Code128;</PackageTags>
@@ -16,7 +16,7 @@
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Product>XyloCode.Tools.GlobalDataIdentifiers</Product>
 		<Description>Library for working with Data and Application Identifiers defined by GS1 and ASC MH10 Standards.</Description>
-		<PackageProjectUrl>https://xylocode.com/Tools/GlobalDataIdentifiers/</PackageProjectUrl>
+		<PackageProjectUrl>https://xylocode.com/tools/globaldataidentifiers/</PackageProjectUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<RepositoryUrl>https://github.com/xylocode/Tools.GlobalDataIdentifiers</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
